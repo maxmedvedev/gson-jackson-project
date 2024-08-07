@@ -8,7 +8,7 @@ plugins {
 
 dependencies {
     implementation(project(":api"))
-    implementation(project(":gson-impl"))
+    implementation(project(":jackson-impl"))
 }
 
 application {
