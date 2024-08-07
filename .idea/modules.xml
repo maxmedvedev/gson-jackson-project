@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/ux-research-project.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/ux-research-project.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-gson/ux-research-project.app-gson.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-gson/ux-research-project.app-gson.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-jackson/ux-research-project.app-jackson.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-jackson/ux-research-project.app-jackson.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gson-impl/ux-research-project.gson-impl.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gson-impl/ux-research-project.gson-impl.main.iml" />
+    </modules>
+  </component>
+</project>
