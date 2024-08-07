@@ -1,4 +1,6 @@
-package ux.test.app;
+package ux.test.app.gson;
+
+import ux.test.app.App;
 
 public class GsonMain {
     public static void main(String[] args) {

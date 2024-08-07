@@ -1,4 +1,6 @@
-package ux.test.app;
+package ux.test.app.jackson;
+
+import ux.test.app.App;
 
 public class JacksonMain {
     public static void main(String[] args) {
