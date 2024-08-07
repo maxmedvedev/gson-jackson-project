@@ -25,7 +25,7 @@ public class EmployeeSerializer {
 
         try {
             // Deserialize the JSON back to a Person object
-            List<Person> employeeList = jsonLibrary.convertFromJson(json, List.class);
+            List<Person> employeeList = jsonLibrary.convertFromJsonToList(json, Person.class);
             System.out.println("Deserialized Employees: " + employeeList.size());
 
             return employeeList;
