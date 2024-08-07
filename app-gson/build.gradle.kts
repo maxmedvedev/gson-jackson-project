@@ -18,7 +18,6 @@ application {
 sourceSets {
     main {
         java {
-            srcDir("src/main/java")
             srcDir("../shared-sources/src/main/java")
         }
     }
