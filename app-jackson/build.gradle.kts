@@ -7,7 +7,6 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":api"))
     implementation(project(":jackson-impl"))
 }
 
