@@ -10,4 +10,4 @@ There are several modules in the project:
 - `:jackson-app` is an app target that runs Simple app with Jackson implementation
 - `shared-sources` folder contains the sources of the Simple app. It is shared between both `:*-app` modules. 
   Note that the folder is not a separate module. it is included in the app modules as a source set, 
-  so it is compiled separately for app modules. Moreover, it does not know which `JsonLibrary` class it uses. 
+  so it is compiled as part of them. Moreover, it does not know which `JsonLibrary` class it uses. 
