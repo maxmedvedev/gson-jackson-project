@@ -7,7 +7,7 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":jackson-impl"))
+    implementation(project(":jackson-lib"))
 }
 
 application {

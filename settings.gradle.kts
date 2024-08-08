@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = "ux-research-project"
-include("app-gson", "app-jackson", "gson-impl", "jackson-impl")
+include("gson-app", "jackson-app", "gson-lib", "jackson-lib")

@@ -7,7 +7,7 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":gson-impl"))
+    implementation(project(":gson-lib"))
 }
 
 application {
