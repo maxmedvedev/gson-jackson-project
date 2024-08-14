@@ -16,6 +16,13 @@ public class JsonLibrary {
     }
 
     public <T> T convertFromJson(String json, Class<T> clazz) throws IOException {
+        // TODO This method does not process items of a list correctly.
+        //      To make it work, you need to pass an instance of CollectionType to `readValue` instead of `clazz`:
+        //      ```
+        //      CollectionType collectionType = TypeUtil.getCollectionType(objectMapper, itemClass);
+        //      return objectMapper.readValue(json, collectionType);
+        //      ```
+
         return objectMapper.readValue(json, clazz);
     }
 }
