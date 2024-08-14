@@ -16,8 +16,12 @@ public class App {
 
         System.out.println(serializeEmployees);
 
-        List<Person> deserializeEmployees = jsonSerializer.deserializeEmployees(serializeEmployees);
+        List<Person> deserializedEmployees = jsonSerializer.deserializeEmployees(serializeEmployees);
 
-        System.out.println(deserializeEmployees);
+        System.out.println(deserializedEmployees);
+
+        for (Person deserializedEmployee : deserializedEmployees) {
+            assert deserializedEmployee instanceof Person;
+        }
     }
 }
